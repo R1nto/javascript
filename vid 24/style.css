@@ -1,0 +1,39 @@
+.produk{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.content{
+    flex: 1;
+    margin: 20px;
+    
+}
+
+.btn-beli > button{
+    font-size: large;
+    width: 50px;
+    height: 30px;
+}
+
+@media only screen and (max-width: 500px) {
+    .produk{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+ 
+
+    .content{
+        font-size: 75%;
+        flex: 1;
+    }
+
+    .btn-beli > button{
+    font-size: 75%;
+    width: 25px;
+    height: 15px;
+}
+
+
+}

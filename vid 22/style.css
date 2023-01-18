@@ -1,0 +1,25 @@
+.produk{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+}
+
+.content{
+    flex: 1;
+    margin: 20px;
+    
+}
+
+@media only screen and (max-width: 500px) {
+    .produk{
+        flex-direction: column;
+    }
+
+
+    .content{
+        font-size: 75%;
+        flex: 1;
+    }
+
+
+}
